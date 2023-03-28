@@ -34,9 +34,7 @@ img {
 }
 
 .fon {
-  background-image: url(/img/gr1131.jpg);
-  background-size: no-repeat;
-  background-position: center;
+  background: url("../img/gr1131.JPG") center/cover no-repeat;
   background-size: cover;
 }
 
@@ -76,9 +74,7 @@ a {
   outline: none;
 }
 
-.fon {
-  background: #F5F5F5 url(../img/gr1131.jpg) center/cover no-repeat;
-}
+
 
 header:after, .container:after, footer:after, .widget-posts-list li:after, #subscribe:after {
   content: "";
