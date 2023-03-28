@@ -34,7 +34,7 @@ img {
 }
 
 .fon {
-  background: url("../img/gr1131.jpg") center/cover no-repeat;
+  background: url("img/gr1131.jpg") center/cover no-repeat;
   background-size: cover;
 }
 
