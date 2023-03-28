@@ -16,7 +16,7 @@ img {
    vertical-align: top;
 }
 .fon{
-   background: url("../img/gr1131.JPG") center/cover no-repeat;
+   background: url("../img/gr1131.jpg") center/cover no-repeat;
     background-size: cover;
 
 }
@@ -101,21 +101,6 @@ border-radius: 45px;
  }
 
 
- .ludi{
-    display: flex;
-   
- }
-
-
- .four{
-    display: flex;
- }
- .send{
-    display: flex;
- }
-
-
-
  /*1 фрейм_________________________________________________*/
  .foto{
    width: 40%;
@@ -178,7 +163,7 @@ padding-bottom: 5%;
 padding-right: 5%;
  }
  
-.lorem__e{
+.dont_lorem__e,.lorem__e{
    font-family: 'Poppins';
    font-style: normal;
    font-weight: 500;
@@ -192,15 +177,7 @@ padding-right: 5%;
  
  
 
- .professia{
-   font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 33px;
-color: #25370A;
-opacity: 0.3;
- }
+
 
 
 
@@ -240,14 +217,7 @@ padding-left: 15px;
 
 
  
- .sendus{
-   font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 33px;
-line-height: 50px;
-color: #8B9F6E;
- }
+
  .explore{
    border: 0;
    width: 274px;
@@ -284,7 +254,7 @@ border-radius: 45px;
    padding-top: 5%;
    padding-left: 4%;
  }
-.title1{
+.three__title1{
    padding-top: 8%;
    font-family: 'Poppins';
 font-style: normal;
@@ -305,15 +275,15 @@ width: 50%;
  .three{
    padding-top: 5%;
  }
- .ludi{
+ .three__ludi{
    padding-top: 5%;
  }
-.chast{
+.ludi_chast{
    padding-left: 5%;
    padding-top: 1%;
    padding-right: 5%;
 } 
-.imja{
+.ludi_imja{
    font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
@@ -322,7 +292,7 @@ line-height: 48px;
 color: #25370A;
 padding-top: 5%;
  }
- .lorem-ipsum{
+ .ludi_lorem-ipsum{
    padding-top: 5%;
    font-family: 'Poppins';
 font-style: normal;
@@ -333,17 +303,30 @@ color: #25370A;
 opacity: 0.3;
  }
 
+ .ludi_professia{
+   font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 33px;
+color: #25370A;
+opacity: 0.3;
+ }
 
 
+ .ludi{
+    display: flex;
+   
+ }
 
 
 
  /*4__________________________________________________*/
  .four{
    padding-top: 15%;
-
+     display: flex;
  }
- .title2{
+ .dont_title2{
    font-family: 'Poppins';
    font-style: normal;
    font-weight: 700;
@@ -351,13 +334,14 @@ opacity: 0.3;
    line-height: 90px;
    color: #25370A;
 }
-.dont{
+.four__dont{
+   padding-right: 5%;
+   padding-left: 5%;
+}
+.four__contact{
    padding-right: 5%;
 }
-.contact{
-   padding-right: 5%;
-}
-.cont{
+.contact_cont{
    font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
@@ -366,16 +350,22 @@ line-height: 50px;
 color: #25370A;
 padding-bottom: 2%;
  }
- .send{
+ .contact_send{ 
+   display: flex;
    padding-top: 15%;
    padding-left: 40%;
    padding-bottom: 20%;
  }
- .sendus{
+ .send_sendus{
    padding-right: 15%;
-
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 33px;
+   line-height: 50px;
+   color: #8B9F6E;
  }
-.strelka{
+.send_strelka{
    width: 30%;
    height: 15%;
 }
