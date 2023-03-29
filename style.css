@@ -34,7 +34,7 @@ img {
 }
 
 .fon {
-  background: url("../gr1131.jpg") center/cover no-repeat;
+  background: url("../img/gr1131.jpg") center/cover no-repeat;
   background-size: cover;
 }
 
@@ -340,7 +340,7 @@ a {
   opacity: 0.3;
 }
 
-.ludi {
+.three__ludi {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -564,6 +564,9 @@ header:after, .container:after, footer:after, .widget-posts-list li:after, #subs
   /* позиционируем меню на увеличившуюся высоту шапки */
 }
 @media screen and (max-width: 1060px) {
+  .four__dont {
+    padding-left: 0;
+  }
   .flex-con {
     padding-top: 2%;
   }
@@ -584,7 +587,7 @@ header:after, .container:after, footer:after, .widget-posts-list li:after, #subs
   .craft {
     padding-left: 0;
   }
-  .dont, .contact {
+  .four__dont, .four__contact {
     padding-right: 0;
   }
   .modern, .two, .three, .four {
@@ -601,13 +604,13 @@ header:after, .container:after, footer:after, .widget-posts-list li:after, #subs
   .krug {
     padding-bottom: 5%;
   }
-  .contact {
+  .four__contact {
     padding-top: 5%;
   }
-  .title, .title1, .title2 {
+  .title, .three__title1, .dont_title2 {
     font-size: 8vw;
   }
-  .title1, .title2, .four {
+  .three__title1, .dont_title2, .four {
     padding-top: 1%;
   }
   .foto, .wert {
@@ -621,7 +624,7 @@ header:after, .container:after, footer:after, .widget-posts-list li:after, #subs
   }
 }
 @media (max-width: 600px) {
-  .ludi {
+  .three__ludi {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -636,7 +639,7 @@ header:after, .container:after, footer:after, .widget-posts-list li:after, #subs
     line-height: 80px;
     font-size: 20px;
   }
-  .send {
+  .contact_send {
     padding-left: 0;
   }
   .vvod {
@@ -659,14 +662,14 @@ header:after, .container:after, footer:after, .widget-posts-list li:after, #subs
     width: 134px;
     height: 60px;
   }
-  .title, .title1, .title2 {
+  .title, .three__title1, .dont_title2 {
     line-height: 10vw;
   }
-  .lorem-ipsum, .lorem__e, .lorem__i {
+  .ludi_lorem-ipsum, .lorem__e, .lorem__i {
     font-size: 4vw;
     line-height: 6vw;
   }
-  .title1, .title2 {
+  .three__title1, .dont_title2 {
     padding-top: 4%;
   }
 }
