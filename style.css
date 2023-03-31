@@ -34,11 +34,12 @@ img {
 }
 
 .fon {
-  background: url("../gr1131.jpg") center/cover no-repeat;
-   background: url("gr1131.jpg") center/cover no-repeat;
-   background: url("img/gr1131.jpg") center/cover no-repeat;
-   background: url("../img/gr1131.jpg") center/cover no-repeat;
+  background: #8B9F6E url("../gr1131.jpg") center/cover no-repeat;
+   background:  #8B9F6E url("gr1131.jpg") center/cover no-repeat;
+   background:  #8B9F6E url("img/gr1131.jpg") center/cover no-repeat;
+   background:  #8B9F6E url("../img/gr1131.jpg") center/cover no-repeat;
   background-size: cover;
+  background-color: # #8B9F6E;
 }
 
 *, *:after, *:before {
