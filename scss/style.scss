@@ -254,15 +254,6 @@ border-radius: 45px;
    padding-top: 5%;
    padding-left: 4%;
  }
-.three__title1{
-   padding-top: 8%;
-   font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 60px;
-line-height: 90px;
-color: #25370A;
-}
 .wert{
 padding-right: 4%;
 padding-left: 1%;
@@ -271,19 +262,31 @@ width: 50%;
 
 
 
- /*3_____________________________________________________________*/
+/*3_____________________________________________________________*/
  .three{
    padding-top: 5%;
- }
- .three__ludi{
-   padding-top: 5%;
- }
-.ludi_chast{
+   &__title1{
+   padding-top: 8%;
+   font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 90px;
+color: #25370A;
+}
+   &__ludi{ 
+      display: flex;
+      padding-top: 5%;
+      
+   }
+}
+.ludi{
+   &_chast{
    padding-left: 5%;
    padding-top: 1%;
    padding-right: 5%;
-} 
-.ludi_imja{
+   } 
+      &_imja{
    font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
@@ -292,7 +295,7 @@ line-height: 48px;
 color: #25370A;
 padding-top: 5%;
  }
- .ludi_lorem-ipsum{
+ &_lorem-ipsum{
    padding-top: 5%;
    font-family: 'Poppins';
 font-style: normal;
@@ -302,8 +305,7 @@ line-height: 39px;
 color: #25370A;
 opacity: 0.3;
  }
-
- .ludi_professia{
+ &_professia{
    font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
@@ -312,12 +314,8 @@ line-height: 33px;
 color: #25370A;
 opacity: 0.3;
  }
-
-
- .three__ludi{
-    display: flex;
-   
- }
+}
+ 
 
 
 
@@ -325,6 +323,45 @@ opacity: 0.3;
  .four{
    padding-top: 15%;
      display: flex;
+   &__dont{
+   padding-right: 5%;
+   padding-left: 5%;
+}
+&__contact{
+   padding-right: 5%; 
+}
+ }
+ .contact{
+   &_cont{
+   font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 33px;
+line-height: 50px;
+color: #25370A;
+padding-bottom: 2%;
+ }
+ &_send{ 
+   display: flex;
+   padding-top: 15%;
+   padding-left: 40%;
+   padding-bottom: 20%;
+ }
+ }
+ .send{
+   &_sendus{
+   padding-right: 15%;
+   font-family: "Poppins";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 33px;
+   line-height: 50px;
+   color: #8B9F6E;
+ }
+ &_strelka{
+   width: 30%;
+   height: 15%;
+}
  }
  .dont_title2{
    font-family: 'Poppins';
@@ -334,42 +371,6 @@ opacity: 0.3;
    line-height: 90px;
    color: #25370A;
 }
-.four__dont{
-   padding-right: 5%;
-   padding-left: 5%;
-}
-.four__contact{
-   padding-right: 5%;
-}
-.contact_cont{
-   font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 33px;
-line-height: 50px;
-color: #25370A;
-padding-bottom: 2%;
- }
- .contact_send{ 
-   display: flex;
-   padding-top: 15%;
-   padding-left: 40%;
-   padding-bottom: 20%;
- }
- .send_sendus{
-   padding-right: 15%;
-   font-family: "Poppins";
-   font-style: normal;
-   font-weight: 700;
-   font-size: 33px;
-   line-height: 50px;
-   color: #8B9F6E;
- }
-.send_strelka{
-   width: 30%;
-   height: 15%;
-}
-
 .krug{
    width: 15%;
 }
