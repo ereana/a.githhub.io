@@ -34,12 +34,8 @@ img {
 }
 
 .fon {
-  background: #8B9F6E url("../gr1131.jpg") center/cover no-repeat;
-   background:  #8B9F6E url("gr1131.jpg") center/cover no-repeat;
-   background:  #8B9F6E url("img/gr1131.jpg") center/cover no-repeat;
-   background:  #8B9F6E url("../img/gr1131.jpg") center/cover no-repeat;
+  background: url("https://github.com/ereana/a.githhub.io/blob/main/gr1131.jpg") center/cover no-repeat;
   background-size: cover;
-  background-color: # #8B9F6E;
 }
 
 *, *:after, *:before {
@@ -282,16 +278,6 @@ a {
   padding-left: 4%;
 }
 
-.three__title1 {
-  padding-top: 8%;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 90px;
-  color: #25370A;
-}
-
 .wert {
   padding-right: 4%;
   padding-left: 1%;
@@ -302,8 +288,19 @@ a {
 .three {
   padding-top: 5%;
 }
-
+.three__title1 {
+  padding-top: 8%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+  color: #25370A;
+}
 .three__ludi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding-top: 5%;
 }
 
@@ -312,7 +309,6 @@ a {
   padding-top: 1%;
   padding-right: 5%;
 }
-
 .ludi_imja {
   font-family: "Poppins";
   font-style: normal;
@@ -322,7 +318,6 @@ a {
   color: #25370A;
   padding-top: 5%;
 }
-
 .ludi_lorem-ipsum {
   padding-top: 5%;
   font-family: "Poppins";
@@ -333,7 +328,6 @@ a {
   color: #25370A;
   opacity: 0.3;
 }
-
 .ludi_professia {
   font-family: "Poppins";
   font-style: normal;
@@ -344,12 +338,6 @@ a {
   opacity: 0.3;
 }
 
-.three__ludi {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 /*4__________________________________________________*/
 .four {
   padding-top: 15%;
@@ -357,21 +345,10 @@ a {
   display: -ms-flexbox;
   display: flex;
 }
-
-.dont_title2 {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 90px;
-  color: #25370A;
-}
-
 .four__dont {
   padding-right: 5%;
   padding-left: 5%;
 }
-
 .four__contact {
   padding-right: 5%;
 }
@@ -385,7 +362,6 @@ a {
   color: #25370A;
   padding-bottom: 2%;
 }
-
 .contact_send {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -404,10 +380,18 @@ a {
   line-height: 50px;
   color: #8B9F6E;
 }
-
 .send_strelka {
   width: 30%;
   height: 15%;
+}
+
+.dont_title2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+  color: #25370A;
 }
 
 .krug {
