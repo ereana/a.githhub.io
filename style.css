@@ -34,8 +34,9 @@ img {
 }
 
 .fon {
-  background:center/cover no-repeat url("https://github.com/ereana/a.githhub.io/img/gr1131.jpg") ;
-  background-size: cover;
+/*честно до победного пыталась вставить фон, но это выше моих сил, в гриде получилось, тут нет*/
+  background: center / cover no-repeat url("https://ereana.github.io/a.github.io/img/gr1131.jpg") ;
+    height: 900px;
 }
 
 *, *:after, *:before {
